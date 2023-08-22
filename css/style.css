@@ -300,7 +300,7 @@ footer article {
 }
 
 #perso{
-    border-radius: 30px;
+    border-radius: 30px 0px 0px 30px;
     background-color:  #1E1D31;
     width: 75%;
     line-height: 40px;
@@ -310,6 +310,8 @@ footer article {
 #perso li {
     color: #fff;
     list-style: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
     
 }
 #boutoninscription a{
@@ -351,6 +353,8 @@ footer article {
 #smallgroup li {
     color: #fff;
     list-style: none;
+    font-size: 16px;
+    font-family: 'Open Sans';
     
 }
 
