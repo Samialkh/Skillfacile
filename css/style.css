@@ -1,0 +1,442 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+/* Général */
+
+*{
+    margin: 0;
+}
+h1 {
+    color: #E34E67;
+    font-size: 23px;
+    font-family: 'Pacifico', cursive;
+}
+h2 {
+    color: #423B73;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+    color: #30CD8A;
+    text-transform: uppercase;
+}  
+
+h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
+
+}
+h5 {
+    color: var(--green);
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+   --darkblue:#363450;
+   --green :#30CD8A;
+   --red : #E34E67;
+   --violet: #423B73;
+   --black: #1E1D31;
+}
+body{
+    margin:auto;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+header img {
+    width: 320px;
+    margin: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#423B73;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav a:hover{
+    color: #30CD8A;
+    transition:all 0.2s ease;
+
+}
+
+
+/* Footer */
+
+footer{
+    background-color:#363450;  
+    font-family: 'Open Sans', sans-serif;
+}
+#apropos {
+    max-width: 1440px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+#apropos li {
+    list-style: none;
+    color: #fff;
+    line-height: 30px;
+    font-weight: 600;
+}
+#mentionslegales p a {
+    text-decoration: none;
+    color: black;
+    
+}
+#mentionslegales a:hover{
+    color: #E34E67;
+    transition: all 0.2 ease;
+}
+
+#apropos a{
+    text-decoration: none;
+    color:white;
+    
+}
+#apropos a:hover{
+    color:#30CD8A;
+    transition: all 0.2 ease;
+}
+
+footer article {
+    max-width: 25%;
+    color: white;
+}
+#mentionslegales{
+    text-align: center;
+    padding: 16px;
+    color: black;
+    background-color: white;
+}
+
+/* Main */
+
+/* Section1 */
+#section1 {
+    max-width: 1440px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 120px;
+    padding-bottom: 50px;
+}
+#section1 p {
+    color: #423B73;
+}
+
+#section1 ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+#section1 a {
+    border-radius: 20px;
+    border: 2px solid var(--green);
+    text-decoration: none;
+    color: white;
+    background-color: #30CD8A;
+    padding:10px 15px;
+}
+#section1 a:hover{
+    background-color: #fff;
+    color: #30CD8A;
+    transition: all 0.2 ease;
+}
+
+/* Section2 */
+
+#section2 {
+    background-color: #1E1D31;
+    padding: 60px;
+}
+
+#services{
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding: 40px 0;
+}
+
+#section2 article {
+    display: flex;
+    gap: 30px;
+    
+} 
+#section2 p {
+    color: #fff;
+}
+#section2 img {
+    height: 70px;
+}
+#boutoncontact a{
+    border-radius: 20px;
+    border: 2px solid var(--green);
+    text-decoration: none;
+    color: var(--green);
+    padding:10px 34px;
+    align-items: center;
+    font-size: 25px;
+}
+#boutoncontact a:hover{
+    background-color: #fff;
+    color: #30CD8A;
+    transition: all 0.2 ease;
+}
+#boutoncontact {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Section3 */
+
+#section3{
+    background-color: white;
+}
+
+#section3>article {
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 60px;
+    width: 700px;
+}
+#section3>article>p{
+    padding: 30px;
+    color: #423B73;
+    
+}
+#coachs{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin: 50px;
+    max-width: 1440px;
+    margin: auto;
+}
+   
+#coachs article {
+    display: flex;
+    gap: 30px;
+}
+#coachs p {
+    color: var(--green);
+}
+
+#presentationcoachs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width:1440px;
+    padding: 40px;
+    gap: 40px;
+}
+
+#presentationcoachs p{
+    background-color: #1E1D31;
+    border-radius: 20px;
+    color: #fff;
+    padding: 50px;
+}
+
+/* Section4 */
+
+#section4{
+    max-width:1440px;
+    margin: auto;
+}
+#section4>article {
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 60px;
+    width: 700px;
+    max-width: 1440px;
+}
+
+#section4>div{
+    display: flex;
+    max-width: 1440px;
+    margin: 20px;
+}
+
+#perso{
+    border-radius: 30px;
+    background-color:  #1E1D31;
+    width: 75%;
+    line-height: 40px;
+    padding: 40px 40px;
+}
+
+#perso li {
+    color: #fff;
+    list-style: none;
+    
+}
+#boutoninscription a{
+    border-radius: 20px;
+    border: 2px solid var(--green);
+    background-color: var(--green);
+    text-decoration: none;
+    color: #fff;
+    padding:10px 34px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#boutoninscription a:hover{
+    background-color: #fff;
+    color: #30CD8A;
+    transition: all 0.2 ease;
+}
+/* Section5 */
+
+#section5{
+    max-width:1440px;
+    margin: auto;
+}
+
+#section5>div{
+    display: flex;
+    margin: 20px;
+}
+
+#smallgroup{
+    border-radius: 30px;
+    background-color:  #1E1D31;
+    width: 75%;
+    line-height: 40px;
+    padding: 40px 40px;
+}
+
+#smallgroup li {
+    color: #fff;
+    list-style: none;
+    
+}
+
+
+#inscriptionsmallgroup a{
+    border-radius: 20px;
+    border: 2px solid var(--green);
+    background-color: var(--green);
+    text-decoration: none;
+    color: #fff;
+    padding:10px 34px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#inscriptionsmallgroup a:hover{
+    background-color: #fff;
+    color: #30CD8A;
+    transition: all 0.2 ease;
+}
+
+/* Section6 */
+#section6{
+    max-width: 1440px;
+    margin: auto;
+    
+}
+
+#section6 article {
+    padding: 150px 0px;
+}
+
+#section6 >div{
+    display: flex;
+    padding: 100px 0px;
+    gap: 250px;
+}
+#formulaire {
+    border-radius: 30px;
+    background-color:  #1E1D31;
+    padding: 30px;
+}
+form {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 30px;
+}
+
+#info{
+    display: flex;
+    gap: 20px;
+}
+input, select, textarea {
+    background-color: #1E1D31;
+    color: #fff;
+    border: 1px solid var(--green);
+    padding: 5px;
+}
+
+#formulaire h4 {
+    text-align: center;
+}
+#formulaire label {
+    color: #fff;
+    border: 1px solid var(--green);
+}
+
+h4{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+
+}
+#envoyer button {
+    padding: 15px 30px;
+    background-color: var(--green);
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#checkbox label {
+    border: none;
+}
+#info input {
+    width: 50%;
+}
